@@ -17,4 +17,4 @@ cd ~ && git clone https://gitlab.com/yozz/dotfiles.git
 ~/dotfiles/bootstrap
 
 # Delete install script
-sudo rm -rf ~/dotfiles-installer-master
+cd ~ && sudo rm -rf ~/dotfiles-installer-master
