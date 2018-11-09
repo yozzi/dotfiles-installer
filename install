@@ -13,8 +13,8 @@ fi
 echo -e "\033[92mCloning repo\033[0m"
 cd ~ && git clone https://gitlab.com/yozz/dotfiles.git
 
-# Delete install script
-sudo rm install
-
 # Run bootstrap
-dotfiles/bootstrap
+~/dotfiles/bootstrap
+
+# Delete install script
+sudo rm -rf ~/dotfiles-installer-master
